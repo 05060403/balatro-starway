@@ -1,0 +1,57 @@
+[manifest]
+version = "1.0.0"
+priority = -5
+
+
+[[patches]]
+[patches.pattern]
+target = "functions/misc_callbacks.lua"
+pattern = '''
+white = G.C.WHITE,
+'''
+position = "at"
+payload = '''
+pink = G.C.PINK,
+silver = G.C.SILVER,
+'''
+match_indent = true
+times = 1
+
+
+# -----------------------------------
+# Ketsuban-chan
+# -----------------------------------
+# Created using "Broker" from sup3p's JokerHub mod as a template.
+
+[[patches]]
+[patches.pattern]
+target = "functions/state_events.lua"
+pattern = "if G.GAME.dollars >= 5 and not G.GAME.modifiers.no_interest then"
+position = "after"
+payload = '''
+if not next(SMODS.find_card("j_BTP_ketsuban")) then
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "functions/state_events.lua"
+pattern = "dollars = dollars + G.GAME.interest_amount*math.min(math.floor(G.GAME.dollars/5), G.GAME.interest_cap/5)"
+position = "after"
+payload = '''
+else
+local ketsuban = SMODS.find_card("j_BTP_ketsuban")
+for i = 1, #ketsuban do
+    local mult_to_add = G.GAME.interest_amount*math.min(math.floor(G.GAME.dollars/5), G.GAME.interest_cap/5)*ketsuban[i].ability.extra.mult_mod
+    ketsuban[i].ability.extra.mult = ketsuban[i].ability.extra.mult + mult_to_add
+    SMODS.calculate_effect({
+        message = localize('k_upgrade_ex'),
+        colour = G.C.MULT,
+        card = ketsuban[i]
+    }, ketsuban[i])
+end
+end
+'''
+match_indent = true
+times = 1
