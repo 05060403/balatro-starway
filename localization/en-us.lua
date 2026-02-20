@@ -183,11 +183,13 @@ return {
 				
 		},
 		texture_packs = {
-            texpack_malverk_starway_starway = {
-                name = 'Starway',
+            texpack_BSW_starway_pack = {
+                name = 'Balatro Starway!',
                 text = {
-                    'Retextures {C:money}Jokers{} and adds a {C:spectral}custom deck{}',
-                    'including original characters and loving homages to yuri series.',
+                    'Retextures {C:money}Jokers{} and',
+					'adds a {C:spectral}custom deck{}',
+                    'including original characters and',
+					'loving homages to yuri series.',
                     'Art by {E:1,C:dark_edition,s:1.1}togekk0',
                     '{C:inactive,s:0.8}Code by 05060403.{}',
                 },

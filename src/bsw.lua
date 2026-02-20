@@ -121,7 +121,7 @@ AltTexture({
 	
 
 TexturePack({
-	key = 'BSW',
+	key = 'starway_pack',
 	textures = {
 		'BSW_starway',
 		'BSW_starway_legendary',

@@ -183,7 +183,7 @@ return {
 				
 		},
 		texture_packs = {
-            texpack_malverk_BSW = {
+            texpack_BSW_starway_pack = {
                 name = 'Balatro Starway!',
                 text = {
                     'Retextures {C:money}Jokers{} and adds a {C:spectral}custom deck{}',
