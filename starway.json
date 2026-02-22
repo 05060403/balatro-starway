@@ -3,7 +3,7 @@
 	"display_name": "Balatro Starway",
 	"id": "BalatroStarway",
 	"prefix": "BSW",
-	"version": "0.1",
+	"version": "0.2",
 	"badge_colour": "FC8FBA",
 	"badge_text_colour": "D42F23",
 	"dependencies": [

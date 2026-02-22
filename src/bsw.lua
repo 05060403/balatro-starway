@@ -110,7 +110,9 @@ AltTexture({
 	},
 	localization = true,
 })
-	
+
+--Alternate Seal Textures--
+
 AltTexture({
     key = 'sealion',
     set = 'Seal',

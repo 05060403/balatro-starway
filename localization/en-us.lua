@@ -1,5 +1,10 @@
 return {
 	descriptions = {
+		Other = {
+            blue_seal = { name = "Trans Seal" },
+            purple_seal = { name = "Bi Seal" },
+            red_seal = { name = "Lesbian Seal" },
+        },
 		alt_texture = {
 			alt_tex_BSW_starway_legendary = {
 				name = "Legendary Jokers",
@@ -31,7 +36,7 @@ return {
 				},
 			},
 			
-		alt_tex_BSW_starway = {
+			alt_tex_BSW_starway = {
 				name = "Other Jokers",
 				j_banner={
 					name="Banner",},
@@ -266,23 +271,11 @@ return {
 					},
 				},
 
-
-				c_familiar={
-					text={
-						"Destroy {C:attention}1{} random",
-						"card in your hand, add",
-						"{C:attention}#1#{} random {C:attention}Enhanced",
-						"{C:attention}Gay Women{} to your hand",
-					},
-				},
 			},
 		
-			-- alt_tex_BSW_sealion = {
-				-- name = "Seals",
-				-- Blue = { name = "Trans Seal" },
-				-- Purple = { name = "Bi Seal" },
-				-- Red = { name = "Lesbian Seal" },
-			-- },
+			alt_tex_BSW_sealion = {
+				name = "Seals",
+			},
 		},
 
 		
@@ -297,6 +290,41 @@ return {
                 },
             },
         },
+		Spectral = {
+			c_familiar={
+					text={
+						"Destroy {C:attention}1{} random",
+						"card in your hand, add",
+						"{C:attention}#1#{} random {C:attention}Enhanced",
+						"{C:attention}Gay Women{} to your hand",
+					},
+			},
+			
+			c_deja_vu = {
+				text = {
+                    "Add a {C:red}Lesbian Seal{}",
+                    "to {C:attention}1{} selected",
+                    "card in your hand",				
+				},
+			},
+			
+			c_trance = {
+				text = {
+                    "Add a {C:blue}Trans Seal{}",
+                    "to {C:attention}1{} selected",
+                    "card in your hand",					
+				},
+			},
+			
+			c_medium = {
+				text = {
+                    "Add a {C:purple}Bi Seal{}",
+                    "to {C:attention}1{} selected",
+                    "card in your hand",					
+				},
+			},
+		},
+		
 		
 		Back = {
 			b_abandoned = {
