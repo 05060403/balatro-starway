@@ -4,22 +4,40 @@ return {
 			alt_tex_BSW_starway_legendary = {
 				name = "Legendary Jokers",
 				j_triboulet = {
-					name = "Triboulet",
+					name = "Sayaka Miki",
 					text = {
 						"Played {C:attention}Ennas{} and",
 						"{C:attention}Lyras{} each give",
 						"{X:mult,C:white} X#1# {} Mult when scored",
 					},
 				},
+				j_yorick = {
+					name = "Mami Tomoe",
+				},
+				j_perkeo = {
+					name = "Madoka Kaname",
+				},
+				j_chicot = {
+					name= "Kyoko Sakura",
+				},
+				j_caino = {
+					name = "Homura Akemi",
+					text = {
+						"This Joker gains {X:mult,C:white} X#1# {} Mult",
+						"when a {C:attention}Gay Woman{}",
+						"is destroyed",
+						"{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
+					},
+				},
 			},
 			
-			alt_tex_BSW_starway = {
+		alt_tex_BSW_starway = {
 				name = "Other Jokers",
 				j_banner={
 					name="Banner",},
 
 				j_baron={
-					name="Baron",
+					name="Evil And Intimidating Woman",
 					text={
 					"Each {C:attention}Enna{}",
 					"held in hand",
@@ -179,21 +197,155 @@ return {
 									"{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
 								}
 						},
+				
+				j_business = {
+					text = {
+					"Played {C:attention}Gay Women{} have",
+                    "a {C:green}#1# in #2#{} chance to",
+                    "give {C:money}$2{} when scored",
+					},
 				},
 				
+				j_faceless = {
+					text = {
+                    "Earn {C:money}$#1#{} if {C:attention}#2#{} or",
+                    "more {C:attention}Gay Women{}",
+                    "are discarded",
+                    "at the same time",					
+					},
+				},
+				
+				j_four_fingers={
+					text={
+                    "All {C:attention}Flushes{} and",
+                    "{C:attention}Lesbians{} can be",
+                    "made with {C:attention}4{} cards",
+					},
+				},
+				
+				j_midas_mask={
+					text={
+						"All played {C:attention}Gay Women{}",
+						"become {C:attention}Gold{} cards",
+						"when scored",
+					},
+				},
+
+				j_pareidolia={
+					text={
+						"All cards are",
+						"considered",
+						"{C:attention}Gay Women{}",
+					},
+				},
+
+				j_reserved_parking={
+					text={
+						"Each {C:attention}Gay Woman{}",
+						"held in hand has",
+						"a {C:green}#2# in #3#{} chance",
+						"to give {C:money}$#1#{}",
+					},
+				},
+
+				j_ride_the_bus={
+					text={
+						"This Joker gains {C:mult}+#1#{} Mult",
+						"per {C:attention}consecutive{} hand",
+						"played without a",
+						"scoring {C:attention}Gay Woman{}",
+						"{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)",
+					},
+				},
+
+				j_shortcut={
+					text={
+						"Allows {C:attention}Lesbians{} to be",
+						"made with gaps of {C:attention}1 rank",
+						"{C:inactive}(ex: {C:attention}10 8 6 5 3{C:inactive})",
+					},
+				},
+
+
+				c_familiar={
+					text={
+						"Destroy {C:attention}1{} random",
+						"card in your hand, add",
+						"{C:attention}#1#{} random {C:attention}Enhanced",
+						"{C:attention}Gay Women{} to your hand",
+					},
+				},
+			},
+		
+			-- alt_tex_BSW_sealion = {
+				-- name = "Seals",
+				-- Blue = { name = "Trans Seal" },
+				-- Purple = { name = "Bi Seal" },
+				-- Red = { name = "Lesbian Seal" },
+			-- },
 		},
+
+		
 		texture_packs = {
             texpack_BSW_starway_pack = {
                 name = 'Balatro Starway!',
                 text = {
-                    'Retextures {C:money}Jokers{} and',
-					'adds a {C:spectral}custom deck{}',
-                    'including original characters and',
-					'loving homages to yuri series.',
+                    'Retextures {C:money}Jokers{} and adds a {C:spectral}custom deck{}',
+                    'including original characters and loving homages to yuri series.',
                     'Art by {E:1,C:dark_edition,s:1.1}togekk0',
                     '{C:inactive,s:0.8}Code by 05060403.{}',
                 },
             },
         },
+		
+		Back = {
+			b_abandoned = {
+				text = {
+					"Start run with",
+					"no {C:attention}Gay Women",
+					"in your deck",
+				},
+			},
+		},
+		
+		Blind = {
+			bl_mark={
+                text={
+                    "All Gay Women are",
+                    "drawn face down",
+					},
+				},
+				
+			bl_plant={
+                text={
+                    "All Gay Women",
+                    "are debuffed",
+					},
+				},
+			},
+
+	},
+		misc = {
+			ranks = {
+				Jack = "Yuriko",
+				King = "Enna",
+				Queen = "Lyra",
+			},
+			poker_hands = {
+				["Five of a Kind"]="Five of Them",
+				["Flush House"]="Full of Flush",
+				["Four of a Kind"]="Four of Them",
+				["Full House"]="Full of Silly",
+				Straight="Lesbian",
+				["Straight Flush"]="Lesbian Flush",
+				["Three of a Kind"]="Three of Them",
+			},
+			
+			dictionary = {
+				b_play_hand = "Ship It",
+				k_extinct_ex="Back to the Moon!",
+				k_face_cards="Gay Women",
+				k_legendary="Holy Quintet",
+			},
 	},
 }
