@@ -46,6 +46,16 @@ for _, suit in ipairs(suits) do
 end
 
 
+--Alternate main menu--
+
+local sprite_logo = SMODS.Atlas{
+	key = "balatro",
+	path = "balatrostarwaytitle.png",
+	px = 333,
+	py = 216,
+	prefix_config = { key = false }
+}:register()
+
 --Alternate Joker skins--
 
 AltTexture({
@@ -89,7 +99,17 @@ AltTexture({
 		'j_reserved_parking',
 		'j_ride_the_bus',
 		'j_shortcut',
-		
+		'j_swashbuckler',
+		'j_blue_joker',
+		'j_campfire',
+		'j_oops',
+		'j_wee',
+		'j_superposition',
+		'j_duo',
+		'j_trio',
+		'j_family',
+		'j_order',
+		'j_tribe',
 	},
 	localization = true,
 })
@@ -121,6 +141,18 @@ AltTexture({
 	localization = false,
 })
 
+--Alternate spectral cards--
+
+AltTexture({
+	key = 'speck',
+	set = 'Spectral',
+	path = 'Tarots.png',
+	soul = 'Enhancers.png',
+	original_sheet = true,
+	localization = true,
+})
+
+--Texture Pack setup--
 
 TexturePack({
 	key = 'starway_pack',
@@ -128,5 +160,6 @@ TexturePack({
 		'BSW_starway',
 		'BSW_starway_legendary',
 		'BSW_sealion',
+		'BSW_speck',
 	}
 })

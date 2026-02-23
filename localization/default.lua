@@ -1,10 +1,10 @@
 return {
 	descriptions = {
 		Other = {
-            blue_seal = { name = "Trans Seal" },
-            purple_seal = { name = "Bi Seal" },
-            red_seal = { name = "Lesbian Seal" },
-        },
+			blue_seal = { name = "Trans Seal" },
+			purple_seal = { name = "Bi Seal" },
+			red_seal = { name = "Lesbian Seal" },
+		},		
 		alt_texture = {
 			alt_tex_BSW_starway_legendary = {
 				name = "Legendary Jokers",
@@ -270,14 +270,84 @@ return {
 						"{C:inactive}(ex: {C:attention}10 8 6 5 3{C:inactive})",
 					},
 				},
+				
+				j_superposition={
+					text={
+						"Create a {C:tarot}Tarot{} card if",
+						"poker hand contains an",
+						"{C:attention}Ace{} and a {C:attention}Lesbian{}",
+						"{C:inactive}(Must have room)",						
+					},
+				},
+				
+				j_wee={
+					name="She's Two Centimeters",
+				},
+				
+				j_swashbuckler={
+					name="That Was A Lie",
+				},
+				
+				j_blue_joker={
+					name="Guitar, Loneliness And Blue Joker",
+				},
+				j_duo={
+					name="The Paramours",
+				},
+				j_trio={
+					name="The Triad",
+				},
+				j_family={
+					name="The Perfect Yuri Square",
+				},
+				j_order={
+					name="The Polycule",
+				},
+				j_tribe={
+					name="The Found Family",
+				},
 
 			},
 		
 			alt_tex_BSW_sealion = {
-				name = "Seals",
+				name = "Seals",	
 			},
-		},
-
+		
+			alt_tex_BSW_speck = {
+					c_familiar={
+							text={
+								"Destroy {C:attention}1{} random",
+								"card in your hand, add",
+								"{C:attention}#1#{} random {C:attention}Enhanced",
+								"{C:attention}Gay Women{} to your hand",
+							},
+					},
+					
+					c_deja_vu = {
+						text = {
+							"Add a {C:red}Lesbian Seal{}",
+							"to {C:attention}1{} selected",
+							"card in your hand",				
+						},
+					},
+					
+					c_trance = {
+						text = {
+							"Add a {C:blue}Trans Seal{}",
+							"to {C:attention}1{} selected",
+							"card in your hand",					
+						},
+					},
+					
+					c_medium = {
+						text = {
+							"Add a {C:purple}Bi Seal{}",
+							"to {C:attention}1{} selected",
+							"card in your hand",					
+						},
+					},
+				},
+			},
 		
 		texture_packs = {
             texpack_BSW_starway_pack = {
@@ -290,41 +360,7 @@ return {
                 },
             },
         },
-		Spectral = {
-			c_familiar={
-					text={
-						"Destroy {C:attention}1{} random",
-						"card in your hand, add",
-						"{C:attention}#1#{} random {C:attention}Enhanced",
-						"{C:attention}Gay Women{} to your hand",
-					},
-			},
-			
-			c_deja_vu = {
-				text = {
-                    "Add a {C:red}Lesbian Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand",				
-				},
-			},
-			
-			c_trance = {
-				text = {
-                    "Add a {C:blue}Trans Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand",					
-				},
-			},
-			
-			c_medium = {
-				text = {
-                    "Add a {C:purple}Bi Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand",					
-				},
-			},
-		},
-		
+
 		
 		Back = {
 			b_abandoned = {
