@@ -4,11 +4,11 @@
 
 [Balatro Starway] is a vanilla friendly resource pack mod that aims to change many of the game’s visuals with characters from various Yuri series, as well as some extras like the Seals and Playable Hands, to be more Queer friendly. \
 Some of the changes include: \
-Custom playable Face Cards \
-Joker changes to series like: Yuru Camp, Bocchi The Rock!, Girls Band Cry, etc. \
-Also includes Jokers with original characters by togekk0 \
-Seals \
-Playable Hand renames 
+* Custom playable Face Cards \
+* Joker changes to series like: Yuru Camp, Bocchi The Rock!, Girls Band Cry, etc. \
+* Also includes Jokers with original characters by togekk0 \
+* Seals \
+* Playable Hand renames 
 
 
 ## Installation
@@ -25,4 +25,5 @@ Textures for the face cards can be changed in “Options” >> “Customize Deck
 
 Art: togekk0 \
 Coding: 05060504
+
 
