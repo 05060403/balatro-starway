@@ -24,6 +24,7 @@ Textures for the face cards can be changed in “Options” >> “Customize Deck
 ## Credits
 
 Art: togekk0 \
-Coding: 05060504
+Coding: 05060403
+
 
 
