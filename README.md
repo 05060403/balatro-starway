@@ -8,12 +8,12 @@ Custom playable Face Cards \
 Joker changes to series like: Yuru Camp, Bocchi The Rock!, Girls Band Cry, etc. \
 Also includes Jokers with original characters by togekk0 \
 Seals \
-Playable Hand renames \
+Playable Hand renames 
 
 
 ## Installation
 
-[Steamodded](https://github.com/Steamodded/smods) and [Malverk](https://github.com/Eremel/Malverk) are required. Please make sure to install both before trying to install this mod.
+> [Steamodded](https://github.com/Steamodded/smods) and [Malverk](https://github.com/Eremel/Malverk) are required. Please make sure to install both before trying to install this mod.
 
 1. Download the latest release from the Releases page or click the green Code button and Download ZIP.
 2. Extract the .zip file to your Balatro Mods folder.
