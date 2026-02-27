@@ -19,12 +19,13 @@ Some of the changes include:
 2. Extract the .zip file to your Balatro Mods folder.
 3. Make sure to activate the texture pack in the Malverk options.
 
-Textures for the face cards can be changed in “Options” >> “Customize Deck”
+Textures for the face cards can be changed in “Options” >> “Customize Deck”.
 
 ## Credits
 
 Art: togekk0 \
 Coding: 05060403
+
 
 
 
