@@ -7,7 +7,7 @@ local atlas_path = 'BSW_lc.png'
 local atlas_path_hc = 'BSW_hc.png'
 local suits = {'hearts', 'clubs', 'diamonds', 'spades'}
 local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",}
-local description = 'Starway!'
+local description = 'Starway to Vega'
 
 ------ATLASES------
 
@@ -162,4 +162,5 @@ TexturePack({
 		'BSW_sealion',
 		'BSW_speck',
 	}
+
 })
