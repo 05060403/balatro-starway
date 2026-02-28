@@ -90,13 +90,13 @@ return {
 									"This Joker gains {X:mult,C:white} X#1# {} Mult",
 									"for every {C:attention}Yuriko{}",
 									"discarded this round",
-				},
+									"{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+									},
 								unlock={
 									"Discard {E:1,C:attention}5",
 									"{E:1,C:attention}Yurikos{} at the",
 									"same time",
-
-									"{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",}
+									},
 								},
 
 				j_hologram={
